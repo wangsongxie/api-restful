@@ -1,0 +1,30 @@
+{
+  "name": "qiaweicom/senior-seeder",
+  "description": "advanced seeder for laravel 5",
+  "type": "library",
+  "keywords": ["L5", "Laravel 5", "Laravel", "seeder", "smart", "advance"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "DevKang",
+      "email": "cn.devkang@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^5.4",
+    "qiaweicom/senior-seeder": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "QiaWeiCom\\SeniorSeeder\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "QiaWeiCom\\SeniorSeeder\\Providers\\SeniorSeederServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
